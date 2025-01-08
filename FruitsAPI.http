@@ -1,0 +1,31 @@
+@Fruits_HostAddress = http://localhost:5050
+
+GET {{Fruits_HostAddress}}/fruitlist
+Accept: application/json
+
+###
+
+POST {{Fruits_HostAddress}}/fruitlist
+Content-Type: application/json
+
+{
+    "name": "Mango",
+    "instock": true
+}
+
+###
+
+PUT {{Fruits_HostAddress}}/fruitlist/2
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Banana",
+    "instock": true
+}
+
+###
+
+DELETE {{Fruits_HostAddress}}/fruitlist/1
+
+###
