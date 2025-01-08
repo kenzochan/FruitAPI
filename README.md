@@ -1,3 +1,6 @@
+Tutorial FruitAPI from microsoft learn
+from the link: https://microsoftlearning.github.io/APL-2002-develop-aspnet-core-consumes-api/Instructions/Labs/01-interact-with-an-api.html
+
 open your terminal
 make sure you have latest version of dotnet 7 sdk installed with the command "dotnet --list-sdks"
 
